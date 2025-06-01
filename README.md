@@ -1,2 +1,4 @@
 # CCD_verilog
-This is a design for graduation
+#########################################
+#This is a design for graduation        #
+#########################################
