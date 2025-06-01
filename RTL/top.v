@@ -25,7 +25,7 @@ module top (
     PIW clk_pad (.PAD(clk), .C(net_clk));    // 时钟 PAD
     PIW rst_pad (.PAD(rst), .C(net_rst));    // 复位 PAD
 
-    // ADC 并行数据输入 PAD（逐个写明，不用generate）
+    // ADC 并行数据输入 PAD
     PIW data_pad_0 (.PAD(data[0]), .C(net_data[0]));
     PIW data_pad_1 (.PAD(data[1]), .C(net_data[1]));
     PIW data_pad_2 (.PAD(data[2]), .C(net_data[2]));
