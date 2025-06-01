@@ -39,10 +39,11 @@
 
 ```
 .
-├── src/                # Verilog源代码
-├── sim/                # 仿真测试文件
-├── doc/                # 设计文档与流程说明
-└── README.md           # 项目说明文件
+├── Picture/                # 照片
+├── RTL/                    # Verilog源代码及仿真测试文件
+├── Datesheet/              # 设计文档与数据流程
+├── Doc/                    # 参考文献
+└── README.md               # 项目说明文件
 ```
 
 ## 使用方法
@@ -52,7 +53,7 @@
     git clone https://github.com/Andrew111888/CCD_verilog.git
     ```
 
-2. 在`src/`目录下编译Verilog代码，并结合`sim/`目录下的测试文件进行仿真。
+2. 在`RTL/`目录下编译Verilog代码，并结合目录下的测试文件进行仿真。
 
 3. 参考`doc/`目录下的文档，了解各设计流程和关键参数。
 
@@ -61,7 +62,7 @@
 - 语言：Verilog HDL
 - 前端综合工具：Synopsys Design Compiler (DC)
 - 后端布局布线工具：Synopsys IC Compiler (ICC)
-- 仿真工具：ModelSim / Vivado
+- 仿真工具：ModelSim / Cadence
 - 操作系统：Windows / Linux
 
 ## 作者信息
